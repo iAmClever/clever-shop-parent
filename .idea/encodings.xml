@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/clever-shop-basics" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/clever-shop-basics/clever-shop-basics-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/clever-shop-basics/clever-shop-basics-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/clever-shop-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/clever-shop-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/clever-shop-service-api/clever-shop-member-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/clever-shop-service-api/clever-shop-weixin-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/clever-shop-service/clever-shop-member-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/clever-shop-service/clever-shop-weixin-service" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
