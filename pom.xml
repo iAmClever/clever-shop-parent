@@ -12,6 +12,8 @@
         <module>clever-shop-basics</module>
         <module>clever-shop-service</module>
         <module>clever-shop-service-api</module>
+        <module>clever-shop-common</module>
+        <module>clever-shop-pay-plugin</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

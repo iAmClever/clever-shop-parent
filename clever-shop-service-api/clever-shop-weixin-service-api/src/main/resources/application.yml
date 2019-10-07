@@ -1,0 +1,6 @@
+wx:
+  mp:
+    configs:
+      - appId: wx1b3e8e851db72a17 #（一个公众号的appid）
+        secret: c6f71f33c493bcc02cb3474bf655f844#（公众号的appsecret）
+        token: clever #（接口配置里的Token值）

@@ -14,7 +14,22 @@
     <modules>
         <module>clever-shop-member-service-api</module>
         <module>clever-shop-weixin-service-api</module>
+        <module>clever-shop-search-service-api</module>
+        <module>clever-shop-pay-service-api</module>
+        <module>clever-shop-integral-service-api</module>
+        <module>clever-shop-spike-service-api</module>
     </modules>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.spring4all</groupId>
+            <artifactId>swagger-spring-boot-starter</artifactId>
+            <version>1.7.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <artifactId>clever-shop-common-util</artifactId>
+            <groupId>com.clever</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

@@ -14,7 +14,8 @@
     <modules>
         <module>clever-shop-basics-eureka</module>
         <module>clever-shop-basics-zuul</module>
+        <module>clever-shop-basics-xxl-sso-server</module>
+        <module>clever-shop-basics-elk</module>
     </modules>
-
 
 </project>

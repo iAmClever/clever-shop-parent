@@ -11,5 +11,12 @@
 
     <artifactId>clever-shop-weixin-service-api</artifactId>
 
+    <dependencies>
+        <dependency>
+            <artifactId>clever-shop-common-util</artifactId>
+            <groupId>com.clever</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -14,7 +14,29 @@
     <modules>
         <module>clever-shop-member-service</module>
         <module>clever-shop-weixin-service</module>
+        <module>clever-shop-search-service</module>
+        <module>clever-shop-pay-service</module>
+        <module>clever-shop-integral-service</module>
+        <module>clever-shop-spike-service</module>
     </modules>
+    <dependencies>
+        <!-- springcloud feign组件 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+        <!-- mybatis相关依赖 -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+    </dependencies>
 
 
 </project>

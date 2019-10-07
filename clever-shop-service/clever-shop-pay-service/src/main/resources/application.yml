@@ -1,0 +1,63 @@
+###服务启动端口号
+server:
+  port: 8600
+###服务名称(服务注册到eureka名称)
+eureka:
+  client:
+    service-url:
+           defaultZone: http://localhost:8100/eureka
+
+spring:
+  application:
+    name:  clver-shop-pay
+  redis:
+    host: 192.168.10.107
+    port: 6379
+#    password: 123456
+    pool:
+      max-idle: 100
+      min-idle: 1
+      max-active: 1000
+      max-wait: -1
+###数据库相关连接
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.10.103:3306/pay_db?useUnicode=true&characterEncoding=UTF-8
+  rabbitmq:
+  ####连接地址
+    host: 127.0.0.1
+   ####端口号
+    port: 5672
+   ####账号
+    username: guest
+   ####密码
+    password: guest
+#   ### 地址
+    virtual-host: /
+    ###开启消息确认机制 confirms
+    publisher-confirms: true
+    publisher-returns: true
+swagger:
+  base-package: com.clever.service
+###多线程配置
+threadPool:
+###核心线程数
+   corePoolSize: 10
+ ###最大线程数
+   maxPoolSize: 20
+ ##  队列容量
+   queueCapacity: 16
+
+xxl:
+    job:
+        accessToken: ''
+        admin:
+            addresses: http://127.0.0.1:9000/xxl-job-admin
+        executor:
+            appname: payExecutor
+            ip: ''
+            logpath: /data/applogs/xxl-job/jobhandler
+            logretentiondays: -1
+            port: 9999
