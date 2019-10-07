@@ -27,7 +27,7 @@ spring:
     url: jdbc:mysql://192.168.10.103:3306/pay_db?useUnicode=true&characterEncoding=UTF-8
   rabbitmq:
   ####连接地址
-    host: 127.0.0.1
+    host: 192.168.10.103
    ####端口号
     port: 5672
    ####账号
@@ -54,7 +54,7 @@ xxl:
     job:
         accessToken: ''
         admin:
-            addresses: http://127.0.0.1:9000/xxl-job-admin
+            addresses: http://192.168.10.103:9000/xxl-job-admin
         executor:
             appname: payExecutor
             ip: ''
